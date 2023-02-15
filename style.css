@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+button{
+  background-color: rgb(203,203,228);
+  border: none;
+
+}
+h3{
+  color: aqua !important;
+  
+}
+/*  Селекторы-это соединяющий инструмент для того,чтобы стилизовать ттеги */
+/* ! (*)-универсальный селектор.Приоритентность самая низкая */
+*{
+  font-weight: 200px;
+}
+/* ! (.)- Селектор по названию атрибута(класс). Один и тот же класс можно использовать несколько раз */
+.name1 {
+color: brown;
+font-family: Montserrat, sans-serif;
+}
+li{
+  color: coral;
+}
+.oneLi{
+  color: rgb(81, 255, 23);
+}
+/*!(#) Селектор по id - по названию атрибута id. Используется только один раз, в виде уникального названия.   */
+#inp{
+  width: 350px;
+  height: 50px;
+  color: red;
+  font-size: 20px;
+}
+/* ! [] - по аттрибутую Приоритетность - низкая */
+inpu [placeholder="E-mail"] {
+  color: aqua;
+}
